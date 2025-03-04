@@ -1,0 +1,129 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #fff3e6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6200;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Menu section styling */
+.menu {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    color: #ff6200;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+
+.item-header {
+    margin-bottom: 1rem;
+}
+
+.item-header h3 {
+    font-size: 1.5rem;
+    color: #ff6200;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #ff6200;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.price-label {
+    color: #ff6200; /* Set "Price:" to orange */
+    font-weight: bold;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #ff6200;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .menu h2 {
+        font-size: 1.5rem;
+    }
+
+    .item-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
