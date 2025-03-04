@@ -35,6 +35,9 @@ git clone https://github.com/Chankit13/Chatbot-for-food-delivery-app.git
 - **Chatbot**: Understands user queries and interacts accordingly.
 - **Database**: Stores order details, user history, and menu items.
 
+## 🔮 Future Enhancements
+- Improve NLP capabilities for better user interaction.
+- Implement a mobile-friendly UI.
 
 
 
